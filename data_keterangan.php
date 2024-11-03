@@ -90,7 +90,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -98,7 +98,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -134,7 +134,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -142,7 +142,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -408,7 +408,7 @@ session_start();
                                         <thead>
                                             <tr>
                                 <th>no</th>   
-                                 <th>id karyawan</th>
+                                 <th>id Siswa</th>
                                  <th>Nama</th>
                                  <th>keterangan</th>
                                  <th class="text-right">alasan</th>

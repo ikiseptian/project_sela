@@ -81,7 +81,7 @@ error_reporting(0);
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                   <h1>Karyawan</h1>
+                   <h1>Siswa</h1>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -207,7 +207,7 @@ error_reporting(0);
                                         <tbody>
                                               
                                             <tr>
-                                                <td>NIP</td>
+                                                <td>NIS</td>
                                                 <td>
                                                 	<input type="text" value="<?php echo $r['id_karyawan'];?>" name="id_karyawan">
                                                 
@@ -286,7 +286,7 @@ error_reporting(0);
                                            </tr>
 
                                            <tr>
-                                           	<td>Jabatan</td>
+                                           	<td>Kelas</td>
                                            	<td>
                                            		<select class="form-control" name="jabatan">
                                                 <?php 
@@ -312,17 +312,8 @@ error_reporting(0);
                                            		 </td>
                                            </tr>
 
-                                           <tr>
-                                           	<td>Foto</td>
-                                           	<td><img src="../images/<?php echo $r['foto'];?>" style="width: 128px;height: 128px;"></td>
-                                           </tr>
+                                          
 
-                                           <tr>
-                                           	<td> <label></label></td>
-                                           	<td> <input type="checkbox" name="ubahfoto" value="true"> Ceklis jika ingin mengubah foto !
-                    <br>
-                    <input type="file" name="inpfoto"></td>
-                                           </tr>
                                           
                    
 

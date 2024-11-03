@@ -88,7 +88,7 @@ error_reporting(0);
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -96,7 +96,7 @@ error_reporting(0);
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -226,7 +226,7 @@ error_reporting(0);
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="prospenab.php" method="POST">
-                                <input autocomplete="off" class="au-input au-input--xl" type="text" name="cari" placeholder="Cari ID atau Nama Karyawan" />
+                                <input autocomplete="off" class="au-input au-input--xl" type="text" name="cari" placeholder="Cari ID atau Nama Siswa" />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -251,7 +251,7 @@ error_reporting(0);
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Nip</th>
+                                                <th>Nis</th>
                                                 <th>Nama</th>
                                                 <th>Waktu</th>
                                                 <th>aksi</th>

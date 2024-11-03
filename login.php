@@ -35,7 +35,7 @@
     </div>
     <!-- copyright -->
     <div class="colorlibcopy-agile">
-      <p>© 2020  Muhamad Zibran Fitadiyatama  All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+      <p>© 2024 Norma Sela  All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
       
 
     </div>

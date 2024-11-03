@@ -15,7 +15,7 @@ error_reporting(0);
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Beranda Karyawan</title>
+    <title>Beranda Siswa</title>
 
        
   
@@ -81,7 +81,7 @@ error_reporting(0);
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-<h1>karyawan</h1>
+<h1>Siswa</h1>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -107,7 +107,7 @@ error_reporting(0);
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" value="Absen Karyawan" readonly="" />
+                                <input class="au-input au-input--xl" type="text" name="search" value="Absen Siswa" readonly="" />
                                 
                             </form>
                             <div class="header-button">
@@ -260,7 +260,7 @@ error_reporting(0);
                         <div class="header-desktop">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2020 Muhamad Zibran Fitadiyatama All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2024 Norma Sela All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>

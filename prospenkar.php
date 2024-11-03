@@ -21,7 +21,7 @@ session_start();
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Data Karyawan</title>
+    <title>Data Siswa</title>
 
     <!-- Fontfaces CSS-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
@@ -90,7 +90,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -98,7 +98,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -134,7 +134,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -142,7 +142,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -258,15 +258,15 @@ session_start();
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Nip</th>
+                                                <th>Nis</th>
                                                 <th>Nama</th>
                                                 <th>Tempat & tanggal lahir</th>
                                                 <th class="text-right">Jenis Kelamin</th>
                                                 <th class="text-right">Agama</th>
                                                 <th>Alamat</th>
                                                 <th>Nomor Telepon</th>
-                                                <th>Jabatan</th>
-                                                <th>Foto</th>
+                                                <th>Kelas</th>
+                                                <!-- <th>Foto</th> -->
                                                 <th>Aksi</th>
                                                 
                                             </tr>
@@ -295,19 +295,7 @@ session_start();
                                                 <td><?php echo $row['alamat']; ?></td>
                                                 <td><?php echo $row['no_tel']; ?></td>
                                                 <td><?php echo $row['jabatan']; ?></td>
-                                                <td>
-                                                    <?php 
-
-                                                    if ($row['foto']!='') {
-                                                        echo "<img src=\" images/$row[foto]\" />";
-                                                    }else{
-                                                        echo "images";
-                                                    }
-
-                                                     ?>
-                                                    
-
-                                                </td>
+                                                
                                                 <td><a href="karyawan_edit.php?id_karyawan=<?php echo $row['id_karyawan']; ?>"><button class="btn btn-primary">Ubah</button></a> <a href="hapus.php?id_karyawan=<?php echo $row['id_karyawan']; ?>"><button class="btn btn-danger" onclick="return confirm('yakin ingin dihapus?');">Hapus</button></a></td>
 
 

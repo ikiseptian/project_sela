@@ -64,7 +64,7 @@ session_start();
 <body>
 <form action="proedit_karyawan.php" method="POST" enctype="multipart/form-data">
   <div class="form-group">
-    <label for="exampleInputEmail1">NIP</label>
+    <label for="exampleInputEmail1">NIS</label>
   <input type="text" class="form-control" readonly="" name="id_karyawan" autocomplete="off" value="<?php echo $d['id_karyawan'];?>">
     
   </div>
@@ -117,7 +117,7 @@ session_start();
    <input type="text" class="form-control"  name="no_tel" value="<?php echo $d['no_tel'];?>">
   </div>
     <div class="form-group">
-    <label for="exampleInputPassword1">Jabatan</label>
+    <label for="exampleInputPassword1">Kelas</label>
                                                 <select class="form-control" name="jabatan">
                                                 <?php 
 
@@ -151,12 +151,12 @@ session_start();
    ?>
   </div>
 
-  <div class="form-group">
+  <!-- <div class="form-group">
                     <label>FOTO</label>
                     <input type="checkbox" name="ubahfoto" value="true"> Ceklis jika ingin mengubah foto !
                     <br>
                     <input type="file" name="inpfoto">
-                  </div>
+                  </div> -->
 
   <button type="submit" class="btn btn-primary" name="ubahdata">Ubah Data</button>
 </form>

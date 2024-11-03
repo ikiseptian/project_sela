@@ -82,7 +82,7 @@ error_reporting(0);
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="?m=awal">
-                    <h1>Karyawan</h1>
+                    <h1>Siswa</h1>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -213,7 +213,7 @@ error_reporting(0);
                                         <tbody>
                                               
                                             <tr>
-                                                <td>NIP</td>
+                                                <td>NIS</td>
                                                 <td>
                                                 
                                                 <?php echo $r['id_karyawan'];?>
@@ -252,15 +252,11 @@ error_reporting(0);
                                            </tr>
 
                                            <tr>
-                                           	<td>Jabatan</td>
+                                           	<td>Kelas</td>
                                            	<td><?php echo $r['jabatan'];?> </td>
                                            </tr>
 
-                                           <tr>
-                                           	<td>Foto</td>
-                                           	<td><img src="../images/<?php echo $r['foto'];?>" style="width: 128px;height: 128px;"></td>
-                                           </tr>
-
+                                        
                                             <tr>
                                                 <td><a href="?m=karyawan&s=edit&id_karyawan=<?php echo $id;?>">EDIT</a></td>
                                                
@@ -280,7 +276,7 @@ error_reporting(0);
                         <div class="header-desktop">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2024 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>

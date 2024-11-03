@@ -35,7 +35,7 @@ if (isset($_POST['ubahdata'])) {
       $sql_f = "UPDATE tb_karyawan set username='$username', password='$password', nama='$nama', tmp_tgl_lahir='$tmp_tgl_lahir', jenkel='$jenkel', agama='$agama', alamat='$alamat', no_tel='$no_tel', jabatan='$jabatan', foto ='$fotobaru' WHERE id_karyawan='$id_karyawan'";
       $ubah  = mysqli_query($koneksi, $sql_f);
       if($ubah){
-        echo "<script>alert('Ubah Data Dengan ID Karyawan = ".$id_karyawan." Berhasil') </script>";
+        echo "<script>alert('Ubah Data Dengan ID Siswa = ".$id_karyawan." Berhasil') </script>";
         echo "<script>window.location.href = \"datakaryawan.php\" </script>";
       } else {
         $sql    = "SELECT * FROM tb_karyawan WHERE id_karyawan = '".$id_karyawan."' ";
@@ -49,7 +49,7 @@ if (isset($_POST['ubahdata'])) {
     else{
       // Jika gambar gagal diupload, Lakukan :
       echo "Maaf, Gambar gagal untuk diupload.";
-      echo "<br><a href='datakaryawan.php'>Kembali Ke data karyawan</a>";
+      echo "<br><a href='datakaryawan.php'>Kembali Ke data Siswa</a>";
     }
  } //akhir ubah foto
  else { //hanya untuk mengubah data

@@ -90,7 +90,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -98,7 +98,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -134,7 +134,7 @@ session_start();
                         </li>
                           <li class="active">
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -142,7 +142,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -228,7 +228,7 @@ session_start();
                         <div class="header-wrap">
                            
                              <form class="form-header" action="prospenkar.php" method="POST">
-                                <input class="au-input au-input--xl" autocomplete="off" type="text" name="cari" placeholder="Cari ID atau nama karyawan" />
+                                <input class="au-input au-input--xl" autocomplete="off" type="text" name="cari" placeholder="Cari ID atau nama Siswa" />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -255,7 +255,7 @@ session_start();
                                         
                                         <tbody>
                                             <tr>
-                                                <td>NIP</td>
+                                                <td>NIS</td>
                                                 <td>
                                                 
                                                 <input type="text" class="form-control" maxlength="9" required="" name="id_karyawan" autocomplete="off" size="25px" maxlength="25px">    
@@ -322,7 +322,7 @@ session_start();
                                                 <td><input type="text" autocomplete="off" maxlength="18" required="" class="form-control" name="no_tel"></td>
                                             </tr>
                                             <tr>
-                                                <td>Jabatan</td>
+                                                <td>Kelas</td>
                                                 <td>
                                                 <select class="form-control" name="jabatan" required="">
                                                 <?php 
@@ -347,10 +347,10 @@ session_start();
                                                 </select>
                                             </td>
                                             </tr>
-                                            <tr>
+                                            <!-- <tr>
                                                 <td>Foto</td>
                                                 <td><input type="file" name="foto"></td>
-                                            </tr>
+                                            </tr> -->
 
                                             <tr>
                                                 <td><button type="submit" name="simpan" class="btn btn-primary">Simpan</button></td>
@@ -399,8 +399,8 @@ session_start();
                                  <th class="text-right">Agama</th>
                                  <th>Alamat</th>
                                  <th>Nomor Telepon</th>
-                                 <th>Jabatan</th>
-                                 <th>Foto</th>
+                                 <th>Kelas</th>
+                                 <!-- <th>Foto</th> -->
                                 <th>Aksi</th>
                                                 
                                             </tr>

@@ -16,7 +16,7 @@
 <body>
   <!-- main -->
   <div class="main-w3layouts wrapper">
-    <h1>Login Karyawan</h1>
+    <h1>Login Siswa</h1>
     <div class="main-agileinfo">
       <div class="agileits-top">
         <form action="pro_login_karyawan.php" method="post">
@@ -35,7 +35,7 @@
     </div>
     <!-- copyright -->
     <div class="colorlibcopy-agile">
-      <p>© 2020  Muhamad Zibran Fitadiyatama  All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+      <p>© 2020  Norma  Sela  All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
     </div>
     <!-- //copyright -->
     <ul class="colorlib-bubbles">

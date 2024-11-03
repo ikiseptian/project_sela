@@ -196,7 +196,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="table.html">
@@ -204,7 +204,7 @@ session_start();
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="calendar.html">

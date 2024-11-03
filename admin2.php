@@ -75,7 +75,7 @@
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -83,7 +83,7 @@
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -120,7 +120,7 @@
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar"></i>Data Siswa</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -128,7 +128,7 @@
                         </li>
                         <li>
                             <a href="datajabatan.php">
-                                <i class="far fa-check-square"></i>Data Jabatan</a>
+                                <i class="far fa-check-square"></i>Data Kelas</a>
                         </li>
                         <li>
                             <a href="data_absen.php">
@@ -208,7 +208,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <h1>SIKaryawan Beta 1.0</h1>
+                            <h1>Siswa Absen</h1>
                           
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <center><img src="img/logokaryawan.png" width="500" class="img img-responsive" height="500"></center><br>
-                            <strong class="col-md-12" style="margin-top: 5rem;">Selamat datang admin SIKaryawan</strong>
+                            <strong class="col-md-12" style="margin-top: 5rem;">Selamat datang admin Sekolah</strong>
 
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2024 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>
